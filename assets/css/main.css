@@ -513,6 +513,10 @@
 		width: 90%;
 	}
 
+    #header img{
+        border-radius: 50%;
+    }
+
 		#header h1 {
 			font-size: 4.35em;
 			font-weight: 900;
