@@ -15,7 +15,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
-
+        
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
@@ -147,6 +147,7 @@
 								<hr />
 							</div>
 						</div>
+                        <div class="fb-comments" data-href="https://ahmedshokr.github.io/me/" data-numposts="100"></div>
 					</div>
 					<footer>
 						<ul id="copyright">
@@ -164,6 +165,14 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+        <div id="fb-root"></div>
+        <script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	</body>
 </html>
