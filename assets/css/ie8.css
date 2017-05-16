@@ -1,26 +1,77 @@
 /*
-	Aerial by HTML5 UP
+	Miniport by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Header */
+/* Basic */
 
-	#header nav a {
+	form input[type=text],
+	form input[type=password],
+	form select,
+	form textarea {
 		position: relative;
-		border: solid 1px #fff;
-		border-radius: 100%;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-		#header nav a:before {
-			border: 0;
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.button {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* Section/Article */
+
+	section > .last-child,
+	article > .last-child,
+	section.last-child,
+	article.last-child {
+		margin-bottom: 0;
+	}
+
+/* Box */
+
+	.box {
+		border: solid 1px #ddd;
+	}
+
+/* List */
+
+	ul.social li a {
+		position: relative;
+		top: 0 !important;
+		overflow: hidden;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		ul.social li a:before {
+			background: none;
 		}
 
-/* Footer */
+/* Wrappers */
 
-	#footer {
-		background-image: url("images/ie/footer.png");
-		background-position: bottom left;
-		background-repeat: repeat-x;
+	.wrapper {
+		border-top: solid 1px #ddd;
 	}
+
+/* Nav */
+
+	#nav a {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* Articles */
+
+	#top .image {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		#top .image img {
+			position: relative;
+			-ms-behavior: url("assets/js/ie/PIE.htc");
+		}
